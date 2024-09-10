@@ -18,7 +18,7 @@ In this lab, we'll be working with git bash. There are other good options such a
 ### 1. Cloning a repo
 In your local coding environment terminal, navigate to a folder you can clone this repo into and enter ```git clone replace_with_url``` 
 
-In your local environment, edit and fix up the porgram included in the repo
+In your local environment, edit and fix up the porgram included in the repo. For each change you make, include in a comment above that line what the previous code was or what the issue was
 
 ### 2. Pushing and Pulling
 #### Using git add
