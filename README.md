@@ -35,7 +35,7 @@ Finally, sending your stuff back to a remote repo is the goal for this lab anywa
 While we're here, also check out codespaces. Really simple way to make quick changes or to work without access to your local machine. **HOWEVER** codespace sessions expire, they cannot be saved, without committing changes of course, and there is a usage limit. So this needs to be noted when using codespaces
 
 #### Branching
-This is the best way to coordinate multiple people working on the same GitHub project. In your local CLI, the command ```git checkout replace_with_branch_name``` will create a new branch or switch to that branch if it already exists. Canges here will not affect main and using this well can add another layer to your version control game. To merge branches to main ```?```. And to push a new branch to the remote repo ```?```
+This is the best way to coordinate multiple people working on the same GitHub project. In your local CLI, the command ```git checkout -b replace_with_branch_name``` will create a new branch or switch to that branch if it already exists. Changes here will not affect main . To merge branches to main, first switch to main ```git checkout main``` and then run ```git merge replace_with_branch_name```. And to push a new branch to the remote repo ```git push origin replace_with_branch_name```
 
 #### Issues and Pull Requests
 
