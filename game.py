@@ -2,7 +2,7 @@ import random
 
 def ask_question(question, answer):
     user_answer = input(question + " ")
-    return user_answer.lower() == answer.upper()
+    return user_answer.lower() == answer.lower()
 
 def main():
     questions = {
@@ -24,7 +24,7 @@ def main():
         else:
             print("Wrong!")
 
-    print(f"Your final score is {5} out of {len(questions)}")
+    print(f"Your final score is {score} out of {len(questions)}")
 
-if __name__ == "____main__":
+if __name__ == "__main__":
     main()
